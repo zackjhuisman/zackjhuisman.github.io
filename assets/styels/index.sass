@@ -128,37 +128,28 @@ body,html
   margin: 0 0 0 0
   text-align: center
   opacity: 1
-.itembox
+.itemcontainer
+  list-style: none
+  display: -webkit-box
+  display: -moz-box
+  display: -ms-flexbox
   display: -webkit-flex
   display: flex
-  flex: auto
+  -webkit-flex-flow: row wrap
+  justify-content: space-around
   width: 100%
-  height: 75%
-.resume
-  width: 21%
-  height: auto
-  margin: auto
-  display: block
-.pastwork
-  width: 21%
-  height: auto
-  margin: auto
-  display: block
-.wiut
-  width: 21%
-  height: auto
-  margin: auto
-  display: block
-.wiutlink
+  height: 65%
+.link
   text-decoration: none
   color: black
-.contact
-  width: 21%
-  height: auto
+.itembox,
+.itemboxCM,
+.itemboxPW
+  width: 350px
+  height: 350px
+  line-height: 30px
   margin: auto
-  display: block
-  float: right
-  position: relative
+  padding: 10px
 span
   display: block
   text-align: center
@@ -200,6 +191,11 @@ svg:hover ~ #spanglow
   float: right
   animation: home 10s linear infinite
   -webkit-animation: home 1s linear infinite
+.back
+  width: 12%
+  margin: 15px 15px 0 0
+  height: 45px
+  float: right
 .ptitle
   padding: 10px 10px 0 0
   margin: 0 0 0 15px
@@ -214,17 +210,6 @@ svg:hover ~ #spanglow
   background: -o-linear-gradient(right, #0F0F0F, #242424)
   background: -moz-linear-gradient(right, #0F0F0F, #242424)
   background: linear-gradient(to right, #0F0F0F, #242424)
-.getout
-  margin: 100px auto
-  font-size: 600%
-  text-align: center
-.resumePage
-  position: relative
-  width: 100%
-  height: 100%
-  display: none
-  transform: rotateX(180deg)
-  overflow: auto
 .pastworkPage
   position: relative
   width: 100%
@@ -232,6 +217,24 @@ svg:hover ~ #spanglow
   display: none
   transform: rotateX(180deg)
   overflow: auto
+.PastWorkContainer
+  list-style: none
+  display: -webkit-box
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
+  -webkit-flex-flow: row wrap
+  justify-content: space-around
+.PastWorkBox
+  background: white
+  padding: 5px
+  width: 350px
+  height: 250px
+  margin-top: 30px
+  line-height: 150px
+  color: black
+  font-size: 120%
 .contactPage
   position: relative
   width: 100%
@@ -251,8 +254,3 @@ svg:hover ~ #spanglow
   font-size: 300%
   text-align: center
   margin: 10px 0 5px 0
-.back
-  width: 12%
-  margin: 15px 15px 0 0
-  height: 45px
-  float: right
