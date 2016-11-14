@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <link rel="stylesheet" href="assets/styels/index.css">
-  <script type="text/javascript" href="assets/scripts/index.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Average+Sans" rel="stylesheet">
 </head>
 <body>
@@ -25,11 +24,8 @@
       </div>
     </div>
 
-    <div class="FrontPicText">
-      <h1>Web / Software<br/>Developer</h1>
-    </div>
-
     <div class="FrontPic">
+      <h1 class="FrontPicText">Web / Software<br/>Developer</h1>
     </div>
 
 
@@ -38,17 +34,57 @@
 
     <div id="InfoBoxes">
 
-      <div class="Box1">
+      <div class="InfoBox1">
       </div>
 
-      <div class="Box2">
+      <div class="InfoBox2">
       </div>
 
-      <div class="Box3">
+      <div class="InfoBox3">
+      </div>
+
+      <div class="Blog">
+        <h1 class="BlogH1">Blog:</h1>
+        <h1>WIP will be up as soon as possible</h1>
+
+      </div>
+
+      <div class="PastWorkH1">
+        <h1>Some Of My Past Work:</h1>
+      </div>
+      <div id="PastWork">
+
+        <div class="PastWorkBox">
+
+        </div>
+        <div class="PastWorkBox">
+
+        </div>
+        <div class="PastWorkBox">
+
+        </div>
+        <div class="PastWorkBox">
+
+        </div>
+
+      </div>
+
+      <div class="Footer">
+
       </div>
 
 
     </div>
   </div>
+<script type="text/javascript">
+var $NavBar = $('.NavBar');
+var $NavBarH1 = $('.NavBarH1');
+var $NavBarLinks = $('.NavBarLinks');
+$(document).scroll(function() {
+    $NavBar.css({"background-color": $(this).scrollTop() > 210? "#D84431":"rgba(0, 0, 0, 0)"});
+
+});
+
+</script>
 </body>
 </html>

@@ -4,7 +4,8 @@
 
 html {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  font-family: "Agency FB", "Average Sans", sans-serif; }
 
 body {
   width: 100%;
@@ -17,6 +18,8 @@ body {
 .FrontPic {
   width: 100%;
   height: 80%;
+  min-height: 800px;
+  min-width: 350px;
   background: url("FrontPic.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -24,19 +27,14 @@ body {
   background-size: cover; }
 
 .FrontPicText {
-  font-size: 300%;
+  font-size: 700%;
   text-align: center;
-  height: 400px;
-  width: 60%;
+  height: 100%;
+  width: 100%;
   min-width: 350px;
-  position: absolute;
-  margin: auto;
-  left: 0;
-  right: 0;
-  top: 100px;
-  bottom: 0;
+  min-height: 300px;
+  padding: 300px 0 0 0;
   color: white;
-  font-family: "Agency FB", "Average Sans", sans-serif;
   text-shadow: 3px 3px 5px #292A2E; }
 
 .NavBar {
@@ -45,11 +43,12 @@ body {
   position: fixed;
   border-bottom: solid thin white;
   color: white;
-  font-family: "Agency FB", "Average Sans", sans-serif;
-  text-shadow: 3px 3px 5px #292A2E; }
+  text-shadow: 3px 3px 5px #292A2E;
+  background-color: transparent;
+  transition: background-color 0.3s ease; }
 
 .NavBarH1 {
-  height: 50px;
+  height: 45px;
   width: auto;
   position: absolute;
   margin: auto 0 auto 20px;
@@ -90,41 +89,68 @@ a:hover {
   opacity: 1; }
 
 #InfoBoxes {
-  background-color: blue;
   width: 100%;
-  height: 400px;
+  height: 500px;
   margin: auto;
   display: flex;
   flex-wrap: wrap; }
 
-.Box1 {
+.InfoBox1 {
   background-color: #D84431;
-  height: 400px;
+  height: 500px;
   flex: 1;
   min-width: 350px; }
 
-.Box2 {
+.InfoBox2 {
   background-color: #4C484D;
-  height: 400px;
+  height: 500px;
   flex: 1;
   min-width: 350px; }
 
-.Box3 {
+.InfoBox3 {
   background-color: #D84431;
-  height: 400px;
+  height: 500px;
   flex: 1;
   min-width: 350px; }
+
+.Blog {
+  width: 100%;
+  height: 500px;
+  padding: 20px; }
+
+.BlogH1 {
+  font-size: 350%; }
+
+.PastWorkH1 {
+  width: 100%;
+  height: 100px;
+  background-color: #4C484D;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 150%; }
+
+#PastWork {
+  width: 100%;
+  height: 400px;
+  background-color: #4C484D;
+  display: flex;
+  flex-wrap: wrap; }
+
+.PastWorkBox {
+  height: 400px;
+  flex: 1;
+  min-width: 350px;
+  border: solid thin red; }
+
+.Footer {
+  width: 100%;
+  height: 100px;
+  background-color: #D84431; }
 
 @media screen and (max-width: 570px) {
-  .NavBar {
-    background: white; }
-
   .NavBar li {
-    display: none; }
-
-  .NavBarH1 {
-    color: #292A2E;
-    text-shadow: none; } }
+    display: none; } }
 @media screen and (max-width: 1066px) {
   #InfoBoxes {
     display: block; }
