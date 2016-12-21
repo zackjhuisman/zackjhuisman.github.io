@@ -1,90 +1,77 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title></title>
-  <meta charset="utf-8">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <link rel="stylesheet" href="assets/styels/index.css">
-  <link href="https://fonts.googleapis.com/css?family=Average+Sans" rel="stylesheet">
-</head>
-<body>
-  <div id="container">
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/styels/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Average+Sans" rel="stylesheet">
+  </head>
+  <body>
+    <div id="container">
 
-    <div class="NavBar">
-      <div class="NavBarH1">
-      <h1>Zack J Huisman</h1>
+      <div class="NavBar">
+        <div class="NavBarH1">
+          <h1>Zack J Huisman</h1>
+        </div>
+        <div class="NavBarLinks">
+          <ul>
+            <li><a class="NavA" href="about">About</a></li>
+            <li><a class="NavA" href="works">Works</a></li>
+            <li><a class="NavA" href="contact">Contact</a></li>
+            <li><a class="NavA" href="blog">Blog</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="NavBarLinks">
-        <ul>
-          <li><a href="About">About</a></li>
-          <li><a href="Works">Works</a></li>
-          <li><a href="Contact">Contact</a></li>
-          <li><a href="Blog">Blog</a></li>
-        </ul>
+
+      <div class="FrontPic">
+        <h1 class="FrontPicText">Web / Software<br/>Developer</h1>
+      </div>
+
+      <div id="InfoBoxes">
+        <div class="InfoBox1">
+          <h1 class="InfoH1"><a href="about">About</a></h1>
+          <h2 class="InfoH2"><a href="about">Some little things about me</a></h2>
+        </div>
+
+        <div class="InfoBox2">
+          <h1 class="InfoH1"><a href="works">Works</a></h1>
+          <h2 class="InfoH2"><a href="works">Past work for clients just like you</a></h2>
+        </div>
+
+        <div class="InfoBox3">
+          <h1 class="InfoH1"><a href="contact">Contact</a></h1>
+          <h2 class="InfoH2"><a href="contact">Ways you can find me</a></h2>
+        </div>
+
+        <div class="Blog">
+          <h1 class="BlogH1">Blog:</h1>
+          <h1>WIP will be up as soon as possible</h1>
+        </div>
+
+        <div class="PastWorkH1">
+          <h1>Some Of My Past Work:</h1>
+        </div>
+
+        <div id="PastWork">
+          <div class="PastWorkBox1"></div>
+          <div class="PastWorkBox2"></div>
+          <div class="PastWorkBox3"></div>
+          <div class="PastWorkBox4"></div>
+        </div>
+
+        <div class="Footer">
+          <h1 class="FooterH1">© 2016 ZackJHuisman. All Rights Reserved
+        </div>
       </div>
     </div>
-
-    <div class="FrontPic">
-      <h1 class="FrontPicText">Web / Software<br/>Developer</h1>
-    </div>
-
-
-
-
-
-    <div id="InfoBoxes">
-
-      <div class="InfoBox1">
-      </div>
-
-      <div class="InfoBox2">
-      </div>
-
-      <div class="InfoBox3">
-      </div>
-
-      <div class="Blog">
-        <h1 class="BlogH1">Blog:</h1>
-        <h1>WIP will be up as soon as possible</h1>
-
-      </div>
-
-      <div class="PastWorkH1">
-        <h1>Some Of My Past Work:</h1>
-      </div>
-      <div id="PastWork">
-
-        <div class="PastWorkBox">
-
-        </div>
-        <div class="PastWorkBox">
-
-        </div>
-        <div class="PastWorkBox">
-
-        </div>
-        <div class="PastWorkBox">
-
-        </div>
-
-      </div>
-
-      <div class="Footer">
-
-      </div>
-
-
-    </div>
-  </div>
-<script type="text/javascript">
-var $NavBar = $('.NavBar');
-var $NavBarH1 = $('.NavBarH1');
-var $NavBarLinks = $('.NavBarLinks');
-$(document).scroll(function() {
-    $NavBar.css({"background-color": $(this).scrollTop() > 210? "#D84431":"rgba(0, 0, 0, 0)"});
-
-});
-
-</script>
-</body>
+    <script type="text/javascript">
+      var $NavBar = $('.NavBar');
+      var $NavBarH1 = $('.NavBarH1');
+      var $NavBarLinks = $('.NavBarLinks');
+      $(document).scroll(function() {
+        $NavBar.css({"background-color": $(this).scrollTop() > 210? "#D84431":"rgba(0, 0, 0, 0)"});
+      });
+    </script>
+  </body>
 </html>
