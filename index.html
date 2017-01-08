@@ -8,27 +8,26 @@
     <link href="https://fonts.googleapis.com/css?family=Average+Sans" rel="stylesheet">
   </head>
   <body>
-    <div id="container">
+    <div class="Container">
 
       <div class="NavBar">
-        <div class="NavBarH1">
-          <h1>Zack J Huisman</h1>
-        </div>
-        <div class="NavBarLinks">
-          <ul>
-            <li><a class="NavA" href="about">About</a></li>
-            <li><a class="NavA" href="works">Works</a></li>
-            <li><a class="NavA" href="experiments">Experiments</a></li>
-            <li><a class="NavA" href="contact">Contact</a></li>
-          </ul>
-        </div>
+        <h1 class="NavBarH1">
+          <a href="index">Zack J Huisman</a>
+        </h1>
+        <ul class="NavBarLinks">
+          <li><a class="NavA" href="about">About</a></li>
+          <li><a class="NavA" href="works">Works</a></li>
+          <li><a class="NavA" href="experiments">Experiments</a></li>
+          <li><a class="NavA" href="contact">Contact</a></li>
+        </ul>
       </div>
 
       <div class="FrontPic">
         <h1 class="FrontPicText">Web / Software<br/>Developer</h1>
       </div>
 
-      <div id="InfoBoxes">
+      <div class="InfoBoxes">
+
         <div class="InfoBox1">
           <a href="about">
             <h1 class="InfoH1">About</h1>
@@ -50,27 +49,28 @@
           </a>
         </div>
 
-        <div class="Experiments">
-          <h1 class="ExperimentsH1">Experiments:</h1>
-          <h1>WIP will be up as soon as possible</h1>
-        </div>
+      </div>
 
-        <div class="PastWorkH1">
-          <h1>Some Of My Past Work:</h1>
-        </div>
+      <div class="Experiments">
+        <h1 class="ExperimentsH1">Experiments:</h1>
+        <h1 class="ExperimentsH1">WIP will be up as soon as possible</h1>
+      </div>
 
-        <div id="PastWork">
-          <div class="PastWorkBox1"></div>
-          <div class="PastWorkBox2"></div>
-          <div class="PastWorkBox3"></div>
-          <div class="PastWorkBox4"></div>
-        </div>
+      <div class="PastWorkH1">
+        <h1>Some Of My Past Work:</h1>
+      </div>
+      <div class="PastWork">
+        <div class="PastWorkBox1"></div>
+        <div class="PastWorkBox2"></div>
+        <div class="PastWorkBox3"></div>
+        <div class="PastWorkBox4"></div>
+      </div>
 
-        <div class="Footer">
-          <h1 class="FooterH1">© 2016 ZackJHuisman. All Rights Reserved
-        </div>
+      <div class="Footer">
+        <h1 class="FooterH1">© 2016 ZackJHuisman. All Rights Reserved
       </div>
     </div>
+
     <script type="text/javascript">
       var $NavBar = $('.NavBar');
       var $NavBarH1 = $('.NavBarH1');
@@ -79,5 +79,6 @@
         $NavBar.css({"background-color": $(this).scrollTop() > 210? "#D84431":"rgba(0, 0, 0, 0)"});
       });
     </script>
+
   </body>
 </html>

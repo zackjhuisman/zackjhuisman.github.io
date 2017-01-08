@@ -2,40 +2,11 @@
   margin: 0
   padding: 0
 
-html
+body, .Container, html
   width: 100%
   height: 100%
   font-family: 'Agency FB', 'Average Sans', sans-serif
-
-body
-  width: 100%
-  height: 100%
-
-#container
-  width: 100%
-  height: 100%
-
-.FrontPic
-  width: 100%
-  height: 80%
-  min-height: 800px
-  min-width: 350px
-  background: url("FrontPic.jpg") no-repeat center center
-  -webkit-background-size: cover
-  -moz-background-size: cover
-  -o-background-size: cover
-  background-size: cover
-
-.FrontPicText
-  font-size: 700%
-  text-align: center
-  height: 100%
-  width: 100%
-  min-width: 350px
-  min-height: 300px
-  padding: 300px 0 0 0
-  color: white
-  text-shadow: 3px 3px 5px #292A2E
+  letter-spacing: 1px
 
 .NavBar
   width: 100%
@@ -65,30 +36,46 @@ body
   right: 30px
   top: 0
   bottom: 0
-  color: inherit
   font-size: 2em
 
-ul
-  text-decoration: none
-  list-style: none
-
 li
-  text-decoration: none
-  list-style: none
   display: inline-block
   padding: 5px 5px 0 5px
 
-.NavA
+a
   text-decoration: none
-  list-style: none
-  color: inherit
+  color: white
+
+.NavA
   opacity: 0.7
   transition: opacity 1s
 
 .NavA:hover
   opacity: 1
 
-#InfoBoxes
+.FrontPic
+  width: 100%
+  height: 80%
+  min-height: 800px
+  min-width: 350px
+  background: url("FrontPic.jpg") no-repeat center center
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+
+.FrontPicText
+  font-size: 700%
+  text-align: center
+  height: 100%
+  width: 100%
+  min-width: 350px
+  min-height: 300px
+  padding: 300px 0 0 0
+  color: white
+  text-shadow: 3px 3px 5px #292A2E
+
+.InfoBoxes
   width: 100%
   height: 250px
   margin: auto
@@ -105,23 +92,14 @@ li
   font-size: 2em
   padding-bottom: 95px
 
-.InfoBox1
+.InfoBox1, .InfoBox3
   background-color: #D84431
   height: 250px
   flex: 1
   min-width: 350px
   transition: background-color 1s
 
-a
-  text-decoration: none
-  color: white
-
-a:hover
-  text-decoration: none
-  color: white
-  opacity: 0.7
-
-.InfoBox1:hover
+.InfoBox1:hover, .InfoBox3:hover
   background-color: #DE3123
 
 .InfoBox2
@@ -134,23 +112,13 @@ a:hover
 .InfoBox2:hover
   background-color: #3E3C40
 
-.InfoBox3
-  background-color: #D84431
-  height: 250px
-  flex: 1
-  min-width: 350px
-  transition: background-color 1s
-
-.InfoBox3:hover
-  background-color: #DE3123
-
 .Experiments
   width: 100%
   height: 500px
-  padding: 20px
 
 .ExperimentsH1
-  font-size: 350%
+  font-size: 300%
+  padding: 20px
 
 .PastWorkH1
   width: 100%
@@ -158,10 +126,10 @@ a:hover
   background-color: #4C484D
   color: white
   text-align: center
-  padding: 20px
+  padding-top: 20px
   font-size: 150%
 
-#PastWork
+.PastWork
   width: 100%
   height: auto
   padding-bottom: 20px
