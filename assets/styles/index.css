@@ -1,1 +1,236 @@
-*{margin:0;padding:0}body,.Container,html{width:100%;height:100%;font-family:"Agency FB","Average Sans",sans-serif;letter-spacing:1px}.NavBar{width:100%;height:100px;position:fixed;border-bottom:solid thin #fff;color:#fff;text-shadow:3px 3px 5px #292A2E;background-color:transparent;transition:background-color 0.3s ease;z-index:3}.NavBarH1{height:45px;width:auto;position:absolute;margin:auto 0 auto 20px;left:0;right:0;top:0;bottom:0}.NavBarLinks{height:50px;width:auto;position:absolute;margin:auto 0 auto 20px;right:30px;top:0;bottom:0;font-size:2em}li{display:inline-block;padding:5px 5px 0 5px}a{text-decoration:none;color:#fff}.NavA{opacity:0.7;transition:opacity 1s}.NavA:hover{opacity:1}.FrontPic{width:100%;height:80%;min-height:800px;min-width:350px;background:url("../img/FrontPic.jpg") no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}.FrontPicText{font-size:700%;text-align:center;height:100%;width:100%;min-width:350px;min-height:300px;padding:300px 0 0 0;color:#fff;text-shadow:3px 3px 5px #292A2E}.InfoBoxes{width:100%;height:auto;margin:auto;display:flex;flex-wrap:wrap}.InfoH1{text-align:center;font-size:4em;padding-top:30px}.InfoH2{text-align:center;font-size:2em;padding-bottom:95px}.InfoBox1,.InfoBox3{background-color:#D84431;height:250px;flex:1;min-width:350px;transition:background-color 1s}.InfoBox1:hover,.InfoBox3:hover{background-color:#DE3123}.InfoBox2{background-color:#4C484D;height:250px;flex:1;min-width:350px;transition:background-color 1s}.InfoBox2:hover{background-color:#3E3C40}.Experiments{width:100%;height:auto;padding-bottom:20px;background-color:#5B565C;display:flex;flex-wrap:wrap;justify-content:center}.ExperimentsH1{width:100%;color:#fff;text-align:center;padding-top:20px;padding-bottom:20px;font-size:300%}.PastWork{width:100%;height:auto;padding-bottom:20px;background-color:#4C484D;display:flex;flex-wrap:wrap;justify-content:center}.PastWorkH1{width:100%;color:#fff;text-align:center;padding-top:20px;padding-bottom:20px;font-size:300%;background-color:#4C484D}.PastWorkBox,.ExperimentsBox{height:400px;flex:1;min-width:350px;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;transition:all 0.3s}.PastWorkBoxEnd,.ExperimentsBoxEnd{height:400px;flex:1;min-width:350px;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;transition:all 0.3s}.PastWorkDes,.ExperimentsDes{width:100%;height:50px;text-align:center;color:#fff;font-size:1.6em;background-color:#D84431;padding-top:10px;transform:translateY(320px);opacity:0;transition:all 0.3s}.PastWorkBox:hover,.ExperimentsBox:hover{box-shadow:0 10px 28px #0F0F0F;z-index:2}.PastWorkBoxEnd:hover,.ExperimentsBoxEnd:hover{box-shadow:0 10px 28px #0F0F0F;z-index:2}.ExperimentsBox:hover>.ExperimentsDes{opacity:1}.ExperimentsBoxEnd:hover>.ExperimentsDes{opacity:1}.PastWorkBox:hover>.PastWorkDes{opacity:1}.PastWorkBoxEnd:hover>.PastWorkDes{opacity:1}.Footer{width:100%;height:50px;background-color:#D84431;margin:auto;bottom:0}.FooterH1{padding-left:15px;font-size:1.1em;margin:auto;line-height:50px}@media screen and (max-width: 563px){.Footer{height:100px}}@media screen and (max-width: 580px){.NavBar li{display:none}}@media screen and (max-width: 1066px){.InfoBox1{min-width:100%}.InfoBox2{min-width:100%}.InfoBox3{min-width:100%}}@media screen and (max-width: 1416px){.PastWorkBoxEnd{display:none}}@media screen and (max-width: 1066px){.PastWorkBoxEnd{display:block}}
+* {
+  margin: 0;
+  padding: 0; }
+
+body, .Container, html {
+  width: 100%;
+  height: 100%;
+  font-family: "Agency FB", "Average Sans", sans-serif;
+  letter-spacing: 1px; }
+
+.NavBar {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  border-bottom: solid thin white;
+  color: white;
+  text-shadow: 3px 3px 5px #292A2E;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  z-index: 3; }
+
+.NavBarH1 {
+  height: 45px;
+  width: auto;
+  position: absolute;
+  margin: auto 0 auto 20px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; }
+
+.NavBarLinks {
+  height: 50px;
+  width: auto;
+  position: absolute;
+  margin: auto 0 auto 20px;
+  right: 30px;
+  top: 0;
+  bottom: 0;
+  font-size: 2em; }
+
+li {
+  display: inline-block;
+  padding: 5px 5px 0 5px; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+.NavA {
+  opacity: 0.7;
+  transition: opacity 1s; }
+
+.NavA:hover {
+  opacity: 1; }
+
+.FrontPic {
+  width: 100%;
+  height: 80%;
+  min-height: 800px;
+  min-width: 350px;
+  background: url("../img/FrontPic.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.FrontPicText {
+  font-size: 700%;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  min-width: 350px;
+  min-height: 300px;
+  padding: 300px 0 0 0;
+  color: white;
+  text-shadow: 3px 3px 5px #292A2E; }
+
+.InfoBoxes {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap; }
+
+.InfoH1 {
+  text-align: center;
+  font-size: 4em;
+  padding-top: 30px; }
+
+.InfoH2 {
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 95px; }
+
+.InfoBox1, .InfoBox3 {
+  background-color: #D84431;
+  height: 250px;
+  flex: 1;
+  min-width: 350px;
+  transition: background-color 1s; }
+
+.InfoBox1:hover, .InfoBox3:hover {
+  background-color: #DE3123; }
+
+.InfoBox2 {
+  background-color: #4C484D;
+  height: 250px;
+  flex: 1;
+  min-width: 350px;
+  transition: background-color 1s; }
+
+.InfoBox2:hover {
+  background-color: #3E3C40; }
+
+.Experiments {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+  background-color: #5B565C;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.ExperimentsH1 {
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 300%; }
+
+.PastWork {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+  background-color: #4C484D;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.PastWorkH1 {
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 300%;
+  background-color: #4C484D; }
+
+.PastWorkBox, .ExperimentsBox {
+  height: 400px;
+  flex: 1;
+  min-width: 350px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: all 0.3s; }
+
+.PastWorkBoxEnd, .ExperimentsBoxEnd {
+  height: 400px;
+  flex: 1;
+  min-width: 350px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: all 0.3s; }
+
+.PastWorkDes, .ExperimentsDes {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  color: white;
+  font-size: 1.6em;
+  background-color: #D84431;
+  padding-top: 10px;
+  transform: translateY(320px);
+  opacity: 0;
+  transition: all 0.3s; }
+
+.PastWorkBox:hover, .ExperimentsBox:hover {
+  box-shadow: 0 10px 28px #0F0F0F;
+  z-index: 2; }
+
+.PastWorkBoxEnd:hover, .ExperimentsBoxEnd:hover {
+  box-shadow: 0 10px 28px #0F0F0F;
+  z-index: 2; }
+
+.ExperimentsBox:hover > .ExperimentsDes {
+  opacity: 1; }
+
+.ExperimentsBoxEnd:hover > .ExperimentsDes {
+  opacity: 1; }
+
+.PastWorkBox:hover > .PastWorkDes {
+  opacity: 1; }
+
+.PastWorkBoxEnd:hover > .PastWorkDes {
+  opacity: 1; }
+
+.Footer {
+  width: 100%;
+  height: 50px;
+  background-color: #D84431;
+  margin: auto;
+  bottom: 0; }
+
+.FooterH1 {
+  padding-left: 15px;
+  font-size: 1.1em;
+  margin: auto;
+  line-height: 50px; }
+
+@media screen and (max-width: 563px) {
+  .Footer {
+    height: 100px; } }
+@media screen and (max-width: 580px) {
+  .NavBar li {
+    display: none; } }
+@media screen and (max-width: 1066px) {
+  .InfoBox1 {
+    min-width: 100%; }
+
+  .InfoBox2 {
+    min-width: 100%; }
+
+  .InfoBox3 {
+    min-width: 100%; } }
+@media screen and (max-width: 1416px) {
+  .PastWorkBoxEnd {
+    display: none; } }
+@media screen and (max-width: 1066px) {
+  .PastWorkBoxEnd {
+    display: block; } }
